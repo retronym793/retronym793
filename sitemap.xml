@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://retronym793.github.io/2022/05/06/%E9%AB%98%E7%9F%A5%E7%9C%8C2015%E5%B9%B4A%E6%97%A5%E7%A8%8B%E6%95%B0%E5%AD%A6-%E5%A4%A7%E5%95%8F1/</loc>
+    
+    <lastmod>2022-05-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://retronym793.github.io/2022/04/10/%E9%AB%98%E7%9F%A5%E7%9C%8C2015%E5%B9%B4A%E6%97%A5%E7%A8%8B%E7%A4%BE%E4%BC%9A-%E5%A4%A7%E5%95%8F3/</loc>
     
     <lastmod>2022-04-10</lastmod>
@@ -40,7 +49,7 @@
 
   <url>
     <loc>https://retronym793.github.io/</loc>
-    <lastmod>2022-04-22</lastmod>
+    <lastmod>2022-05-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -48,7 +57,14 @@
   
   <url>
     <loc>https://retronym793.github.io/tags/%E9%AB%98%E7%9F%A5%E7%9C%8C%E7%A4%BE%E4%BC%9A/</loc>
-    <lastmod>2022-04-22</lastmod>
+    <lastmod>2022-05-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://retronym793.github.io/tags/%E9%AB%98%E7%9F%A5%E7%9C%8C%E6%95%B0%E5%AD%A6/</loc>
+    <lastmod>2022-05-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -57,21 +73,28 @@
   
   <url>
     <loc>https://retronym793.github.io/categories/%E3%82%B5%E3%82%A4%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</loc>
-    <lastmod>2022-04-22</lastmod>
+    <lastmod>2022-05-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://retronym793.github.io/categories/%E9%AB%98%E6%A0%A1%E5%85%A5%E8%A9%A6/</loc>
-    <lastmod>2022-04-22</lastmod>
+    <lastmod>2022-05-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://retronym793.github.io/categories/%E9%AB%98%E6%A0%A1%E5%85%A5%E8%A9%A6-%E7%A4%BE%E4%BC%9A/</loc>
-    <lastmod>2022-04-22</lastmod>
+    <lastmod>2022-05-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://retronym793.github.io/categories/%E9%AB%98%E6%A0%A1%E5%85%A5%E8%A9%A6-%E6%95%B0%E5%AD%A6/</loc>
+    <lastmod>2022-05-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
