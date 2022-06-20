@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://retronym793.github.io/2022/06/12/%E3%82%B5%E3%82%A4%E3%83%88%E3%83%9E%E3%83%83%E3%83%97/</loc>
+    
+    <lastmod>2022-06-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://retronym793.github.io/2022/06/20/%E3%83%97%E3%83%81%E9%9B%91%E5%AD%A620/</loc>
     
     <lastmod>2022-06-20</lastmod>
@@ -14,15 +23,6 @@
     <loc>https://retronym793.github.io/2022/06/19/%E3%83%97%E3%83%81%E9%9B%91%E5%AD%A619/</loc>
     
     <lastmod>2022-06-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://retronym793.github.io/2022/06/12/%E3%82%B5%E3%82%A4%E3%83%88%E3%83%9E%E3%83%83%E3%83%97/</loc>
-    
-    <lastmod>2022-06-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
