@@ -67,6 +67,53 @@
 </header>
   <div id="content" class="inner">
     <div id="main-col" class="alignleft"><div id="wrapper">
+  <article id="post-マルコフ連鎖-1" class="h-entry post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  
+  <div class="post-content">
+    <header>
+      
+        <div class="icon"></div>
+        <time class="dt-published" datetime="2022-07-06T11:47:33.000Z"><a href="/2022/07/06/%E3%83%9E%E3%83%AB%E3%82%B3%E3%83%95%E9%80%A3%E9%8E%96-1/">2022-07-06</a></time>
+      
+      
+  
+    <h1 class="title"><a href="/2022/07/06/%E3%83%9E%E3%83%AB%E3%82%B3%E3%83%95%E9%80%A3%E9%8E%96-1/">マルコフ連鎖-1</a></h1>
+  
+
+    </header>
+    <div class="e-content entry" itemprop="articleBody">
+      
+        <p>マルコフ連鎖による文章生成についてです。</p>
+<p>まず、みなさんはマルコフ連鎖というものをご存じですか?<br>マルコフ連鎖とは簡単に言うと、前の状態を考慮せずに、現在の状態のみで次の状態を決めていく確率のことです。</p>
+<p>これを日本語の文章に対して使うことができます。<br>日本語は単語の組み合わせでできていますが、その単語にも相性みたいなものがあります。<br>例えば、”宇宙”という単語に対して、”不思議”や”広い”などの単語は続きやすいですが、”おいしい”などの単語は続きにくいでしょう。</p>
+<p>実際の例について”リンゴは赤い。リンゴはおいしい。”、という2つの文で考えてみます。<br>それぞれを単語に分けてみると、”リンゴ&#x2F;は&#x2F;赤い。リンゴ&#x2F;は&#x2F;おいしい。”となります。<br>“リンゴ”という単語のあとには”は”という単語が100％きており、”は”という単語のあとには”赤い”、”おいしい”といった単語が50％ずつの確率で来ていますね。</p>
+<p>この確率を利用して、データとなる文章を設定してあげれば、そのデータっぽい文章を作ることができます。<br>実際に作る時には、単語いくつかを1まとまりとしてこのマルコフ連鎖を行っていくと、より意味の通る文章は出来やすいです。<br>1まとまりの中の単語数を多くしすぎてしまうと、データとなる文章と似てきて面白みがなくなってしまう場合もありますが。</p>
+<p>実際に芥川龍之介の羅生門でマルコフ連鎖を行ってみました。<br>単語3つを1まとまりとしています。</p>
+<blockquote>
+<blockquote>
+<p>昼間見ると、門の下か、たくさん集って来た。<br>洛中がその始末である。<br>じゃが、ここにいる者は、味がよいと云う事は、大体こんな意味の事である。<br>せねば、今でも売りに往んだわ。<br>すると、幸い門の下を覗きこんだ。<br>申の刻下りからふり出した雨は、恐怖が少しずつ消えて行った。<br>これとてもやはりせねば、饑死をするか盗人になるほど、土を捏ねて造った人形のように身をちぢめて、それから、何をおいても差当り明日の暮しをどうにかしようとして――云わばどうにもならない事を忘れていたのを、その長い髪の毛を抜くかわからなかった。<br>何故かと云う事実さえ疑われるほど、見開いて、その気色が、無造作に棄てて行くと云う事を肯定しながら、知れるのは、その裸の死骸の中へはいって来た。<br>老婆が死骸につまずきながら、まだ燃えている。<br>どうにも書いた。<br>老婆が死人の髪の毛を抜くと云う事は、次の瞬間には誰か火をそこここと動かしているのである。<br>旧記によると、この女の死骸が、冷やかな侮蔑と一しょに、揺れながら映ったので、すぐにそれと知れたのも、結局すれば――下人のSentimentalismeに影響した火の光の及ぶ範囲が、適当である。<br>その髪の毛が、ほとんど、考える事さえ出来た、背の低い、痩せた、肉食鳥のように、やっとこの局所へ逢着した事が悪いとは思うていたと云う事実さえ疑われるほど、土を捏ねて造った人形のように気を つけながら、知れるのは、その男のほかにもならない事を、何をおいても、結局「すれば」のかたをつけるために、揺れながら映ったので、数は幾つともわからない。<br>わしは、手段を選んでいる遑はない。<br>わしは、老婆を見下しながら、聞いている。</p>
+</blockquote>
+</blockquote>
+<p>pythonと、文章を単語に分割するのにMecabを(Mecabをpythonで使うためのmecab-pythonも)使いました。</p>
+<hr>
+
+<p><a target="_blank" rel="noopener" href="https://docs.google.com/forms/d/e/1FAIpQLScjliG5otfyfFs7gtxU_s7r8gZmFnbuMgnDTwH5NaYTzlMIgw/viewform?usp=sf_link" title="googleフォームリンク">お問い合わせ(googleフォームリンク)</a><br>間違えの指摘等はこちらにお願いします   気軽に送信できます</p>
+
+      
+    </div>
+    <footer>
+      
+        
+        <!--  -->
+      
+      <div class="clearfix"></div>
+    </footer>
+  </div>
+</article>
+
+<!--  -->
+
+
   <article id="post-プチ雑学26" class="h-entry post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   
   <div class="post-content">
@@ -404,43 +451,6 @@
 <!--  -->
 
 
-  <article id="post-プチ雑学18" class="h-entry post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  
-  <div class="post-content">
-    <header>
-      
-        <div class="icon"></div>
-        <time class="dt-published" datetime="2022-06-18T12:03:21.000Z"><a href="/2022/06/18/%E3%83%97%E3%83%81%E9%9B%91%E5%AD%A618/">2022-06-18</a></time>
-      
-      
-  
-    <h1 class="title"><a href="/2022/06/18/%E3%83%97%E3%83%81%E9%9B%91%E5%AD%A618/">プチ雑学18</a></h1>
-  
-
-    </header>
-    <div class="e-content entry" itemprop="articleBody">
-      
-        <p>濃硝酸と濃塩酸を1:3の体積比で混ぜることによって作られる、金や白金といった貴金属を始めとする多くの金属を溶解できる液体は何でしょう?<br>正解は王水です。<br>化学式はHNO3+3HClであらわされます。</p>
-<p><a target="_blank" rel="noopener" href="https://ja.wikipedia.org/wiki/%E7%8E%8B%E6%B0%B4" title="wikipedia/王水">参考(wikipedia&#x2F;王水)</a></p>
-<hr>
-
-<p><a target="_blank" rel="noopener" href="https://docs.google.com/forms/d/e/1FAIpQLScjliG5otfyfFs7gtxU_s7r8gZmFnbuMgnDTwH5NaYTzlMIgw/viewform?usp=sf_link" title="googleフォームリンク">お問い合わせ(googleフォームリンク)</a><br>間違えの指摘等はこちらにお願いします   気軽に送信できます</p>
-
-      
-    </div>
-    <footer>
-      
-        
-        <!--  -->
-      
-      <div class="clearfix"></div>
-    </footer>
-  </div>
-</article>
-
-<!--  -->
-
-
 
 <nav id="pagination">
   
@@ -471,6 +481,8 @@
   
     <li><a href="/categories/%E3%82%B5%E3%82%A4%E3%83%88%E3%83%9E%E3%83%83%E3%83%97/">サイトマップ</a><small>1</small></li>
   
+    <li><a href="/categories/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/">プログラミング</a><small>1</small></li>
+  
     <li><a href="/categories/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%83%A6%E3%83%8A%E3%82%A4%E3%83%88/">ポケモンユナイト</a><small>1</small></li>
   
     <li><a href="/categories/%E9%9B%91%E5%AD%A6/">雑学</a><small>26</small></li>
@@ -490,9 +502,13 @@
   <h3 class="title">タグ</h3>
   <ul class="entry">
   
+    <li><a href="/tags/python/">python</a><small>1</small></li>
+  
     <li><a href="/tags/%E3%82%AE%E3%83%AB%E3%82%AC%E3%83%AB%E3%83%89/">ギルガルド</a><small>1</small></li>
   
     <li><a href="/tags/%E3%82%AF%E3%82%A4%E3%82%BA/">クイズ</a><small>26</small></li>
+  
+    <li><a href="/tags/%E3%83%9E%E3%83%AB%E3%82%B3%E3%83%95%E9%80%A3%E9%8E%96/">マルコフ連鎖</a><small>1</small></li>
   
     <li><a href="/tags/%E9%9B%91%E5%AD%A6/">雑学</a><small>26</small></li>
   
