@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://retronym793.github.io/2022/06/12/%E3%82%B5%E3%82%A4%E3%83%88%E3%83%9E%E3%83%83%E3%83%97/</loc>
+    <loc>https://retronym793.github.io/2022/08/18/%E3%82%B7%E3%83%A3%E3%83%8B%E3%83%9E%E3%82%B9%E3%81%AE%E3%82%AB%E3%83%A1%E3%83%A9%E3%83%A2%E3%83%BC%E3%83%89%E3%81%A7%E6%97%A2%E5%AD%98%E3%81%AE%E7%94%BB%E5%83%8F%E3%82%92%E4%BD%BF%E3%81%86-pc/</loc>
     
     <lastmod>2022-08-18</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://retronym793.github.io/2022/08/18/%E3%82%B7%E3%83%A3%E3%83%8B%E3%83%9E%E3%82%B9%E3%81%AE%E3%82%AB%E3%83%A1%E3%83%A9%E3%83%A2%E3%83%BC%E3%83%89%E3%81%A7%E6%97%A2%E5%AD%98%E3%81%AE%E7%94%BB%E5%83%8F%E3%82%92%E4%BD%BF%E3%81%86-pc/</loc>
+    <loc>https://retronym793.github.io/2022/06/12/%E3%82%B5%E3%82%A4%E3%83%88%E3%83%9E%E3%83%83%E3%83%97/</loc>
     
     <lastmod>2022-08-18</lastmod>
     
@@ -449,6 +449,13 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://retronym793.github.io/tags/%E3%82%B7%E3%83%A3%E3%83%8B%E3%83%9E%E3%82%B9%E3%83%95%E3%82%A9%E3%83%88/</loc>
+    <lastmod>2022-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -516,6 +523,13 @@
   
   <url>
     <loc>https://retronym793.github.io/categories/%E3%82%AF%E3%82%A4%E3%82%BA/</loc>
+    <lastmod>2022-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://retronym793.github.io/categories/%E3%82%B7%E3%83%A3%E3%83%8B%E3%83%9E%E3%82%B9/</loc>
     <lastmod>2022-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
