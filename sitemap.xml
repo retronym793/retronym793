@@ -2,15 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://retronym793.github.io/2022/06/12/%E3%82%B5%E3%82%A4%E3%83%88%E3%83%9E%E3%83%83%E3%83%97/</loc>
-    
-    <lastmod>2022-11-19</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://retronym793.github.io/2022/11/19/VS%E3%82%B9%E3%83%91%E3%83%A0%E3%83%A1%E3%83%BC%E3%83%AB%E6%88%A6/</loc>
     
     <lastmod>2022-11-19</lastmod>
@@ -49,15 +40,6 @@
   <url>
     <loc>https://retronym793.github.io/2022/10/02/%E5%B9%BD%E8%B0%B7%E9%9C%A7%E5%AD%90%E3%81%AEWING%E3%82%92%E8%AA%AD%E3%82%80/</loc>
     
-    <lastmod>2022-10-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://retronym793.github.io/2022/08/18/%E3%82%B7%E3%83%A3%E3%83%8B%E3%83%9E%E3%82%B9%E3%81%AE%E3%82%AB%E3%83%A1%E3%83%A9%E3%83%A2%E3%83%BC%E3%83%89%E3%81%A7%E6%97%A2%E5%AD%98%E3%81%AE%E7%94%BB%E5%83%8F%E3%82%92%E4%BD%BF%E3%81%86-pc/</loc>
-    
     <lastmod>2022-10-02</lastmod>
     
     <changefreq>monthly</changefreq>
@@ -83,9 +65,9 @@
   </url>
   
   <url>
-    <loc>https://retronym793.github.io/2022/07/20/noita%E3%81%AEmod%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F%E3%81%84/</loc>
+    <loc>https://retronym793.github.io/2022/08/18/%E3%82%B7%E3%83%A3%E3%83%8B%E3%83%9E%E3%82%B9%E3%81%AE%E3%82%AB%E3%83%A1%E3%83%A9%E3%83%A2%E3%83%BC%E3%83%89%E3%81%A7%E6%97%A2%E5%AD%98%E3%81%AE%E7%94%BB%E5%83%8F%E3%82%92%E4%BD%BF%E3%81%86-pc/</loc>
     
-    <lastmod>2022-08-24</lastmod>
+    <lastmod>2022-08-18</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -95,6 +77,15 @@
     <loc>https://retronym793.github.io/2022/08/17/%E3%83%97%E3%83%81%E9%9B%91%E5%AD%A627/</loc>
     
     <lastmod>2022-08-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://retronym793.github.io/2022/07/20/noita%E3%81%AEmod%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F%E3%81%84/</loc>
+    
+    <lastmod>2022-07-20</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -121,7 +112,7 @@
   <url>
     <loc>https://retronym793.github.io/2022/07/06/%E3%83%9E%E3%83%AB%E3%82%B3%E3%83%95%E9%80%A3%E9%8E%96-1/</loc>
     
-    <lastmod>2022-07-07</lastmod>
+    <lastmod>2022-07-06</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -202,7 +193,7 @@
   <url>
     <loc>https://retronym793.github.io/2022/06/19/%E3%83%97%E3%83%81%E9%9B%91%E5%AD%A619/</loc>
     
-    <lastmod>2022-06-20</lastmod>
+    <lastmod>2022-06-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -281,7 +272,7 @@
   </url>
   
   <url>
-    <loc>https://retronym793.github.io/2022/04/05/%E3%82%B5%E3%82%A4%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</loc>
+    <loc>https://retronym793.github.io/2022/06/12/%E3%82%B5%E3%82%A4%E3%83%88%E3%83%9E%E3%83%83%E3%83%97/</loc>
     
     <lastmod>2022-06-12</lastmod>
     
@@ -409,7 +400,16 @@
   <url>
     <loc>https://retronym793.github.io/2022/04/10/%E9%AB%98%E7%9F%A5%E7%9C%8C2015%E5%B9%B4A%E6%97%A5%E7%A8%8B%E7%A4%BE%E4%BC%9A-%E5%A4%A7%E5%95%8F3/</loc>
     
-    <lastmod>2022-05-06</lastmod>
+    <lastmod>2022-04-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://retronym793.github.io/2022/04/05/%E3%82%B5%E3%82%A4%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</loc>
+    
+    <lastmod>2022-04-05</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -418,7 +418,7 @@
   <url>
     <loc>https://retronym793.github.io/2022/04/02/%E9%AB%98%E7%9F%A5%E7%9C%8C2015%E5%B9%B4A%E6%97%A5%E7%A8%8B%E7%A4%BE%E4%BC%9A-%E5%A4%A7%E5%95%8F2/</loc>
     
-    <lastmod>2022-04-05</lastmod>
+    <lastmod>2022-04-01</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -427,7 +427,7 @@
   <url>
     <loc>https://retronym793.github.io/2022/04/01/%E9%AB%98%E7%9F%A5%E7%9C%8C2015%E5%B9%B4A%E6%97%A5%E7%A8%8B%E7%A4%BE%E4%BC%9A-%E5%A4%A7%E5%95%8F1/</loc>
     
-    <lastmod>2022-04-05</lastmod>
+    <lastmod>2022-04-01</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -557,14 +557,14 @@
   </url>
   
   <url>
-    <loc>https://retronym793.github.io/categories/noita/</loc>
+    <loc>https://retronym793.github.io/categories/%E5%82%99%E5%BF%98%E9%8C%B2/</loc>
     <lastmod>2022-11-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://retronym793.github.io/categories/%E5%82%99%E5%BF%98%E9%8C%B2/</loc>
+    <loc>https://retronym793.github.io/categories/noita/</loc>
     <lastmod>2022-11-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
