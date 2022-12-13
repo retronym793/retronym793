@@ -3,14 +3,14 @@
 <head>
   <meta charset="utf-8">
   
-  <title>noitaのmodを作ってみたい | れとろにむ</title>
+  <title>雑記1 | れとろにむ</title>
   
   
   <meta name="description" content="雑学を中心に色々な事を行っていきたいと思っています。">
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <meta property="og:title" content="noitaのmodを作ってみたい"/>
+  <meta property="og:title" content="雑記1"/>
   <meta property="og:site_name" content="れとろにむ"/>
 
   
@@ -66,30 +66,28 @@
 <div class="clearfix"></div>
 </header>
   <div id="content" class="inner">
-    <div id="main-col" class="alignleft"><div id="wrapper"><article id="post-noitaのmodを作ってみたい" class="h-entry post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+    <div id="main-col" class="alignleft"><div id="wrapper"><article id="post-雑記" class="h-entry post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   
   <div class="post-content">
     <header>
       
         <div class="icon"></div>
-        <time class="dt-published" datetime="2022-07-20T13:06:41.000Z"><a href="/2022/07/20/noita%E3%81%AEmod%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F%E3%81%84/">2022-07-20</a></time>
+        <time class="dt-published" datetime="2022-12-13T12:17:33.000Z"><a href="/2022/12/13/%E9%9B%91%E8%A8%98/">2022-12-13</a></time>
       
       
   
-    <h1 class="p-name title" itemprop="headline name">noitaのmodを作ってみたい</h1>
+    <h1 class="p-name title" itemprop="headline name">雑記1</h1>
   
 
     </header>
     <div class="e-content entry" itemprop="articleBody">
       
-        <p>noitaのmodを作りました。<br>敵を倒すと、普通の金塊ではなく血の金塊がドロップし、スペルかパークが1つドロップします。<br>常時詠唱、マナ高・容量低、素早い杖、常時詠唱の4つのパークのうちのいずれかがドロップする確率が15％、その他のパークが落ちる確率も15％、残りの70％でスペルがドロップします。<br>敵の体力と攻撃頻度にも倍率をかけました。</p>
-<p>競合してしまうmodは調べておりません。<br>また、noitaの秘密に当たるスペルやパークがドロップする可能性もありますので、ネタバレ注意です。</p>
-<p>乱数のシード値を現在の時間から取りたかったのがあまりうまくいかなかったので、乱数を扱いたいとき、その時の経過フレーム数で毎回シード値を再設定しています。<br>なので同じフレームで敵を倒すと一緒のものがドロップしてしまいます。</p>
-<p>以下は制作ログ的な何かです。</p>
-<p>7&#x2F;20<br>noitaにはmodを作る人向けの規約が用意されているのでしっかりと目を通しておきます<br>Luaを使って記述していくので少々勉強しておきます<br>・ –[[     ]]でコメントアウト<br>・ 変数の型はあまり意識する必要がない(動的に変化する)<br>・ 変数はどこでも宣言でき、指定がない限りグローバル変数<br>・ if (条件式) then 処理 elseif(条件式) then 処理 else 処理 end<br>・ while (条件式) do 処理 end<br>・ Numeric for&#x2F;for 初期値,終了値,増加量 do 処理 end&#x2F;初期値のところでループ変数を宣言<br>・ function 関数名 (引数) 処理 end&#x2F;戻り値はreturn<br>・ 変数に関数も代入できる<br>init.luaを作成しました<br>ナイトメアのinit.luaを読んで雰囲気をつかんでみます<br>7&#x2F;21<br>ナイトメアのコピペで開始位置にパークは置けました<br>しかしどこの処理がお金を落とす部分になっているのかが分かりません<br>drop_moneyといういかにもそれっぽいものはあるのですがよく分かりません<br>このファイルの仕組みを理解してみようとは思いますが<br>7&#x2F;22<br>敵を倒したときにパークを出させることに成功しました<br>3ついっきに出てしまうのですが、パークのテーブルを作ってそこからランダムで1つ当てて変数に入れてあげればperk_spawn_with_nameで呼び出せると思います。<br>確率でスペルとパークのどちらがドロップするかは制御するつもりですが、トリックキルだと敵を倒してもパークが落ちません。どうしてでしょう?<br>7&#x2F;23<br>トリックキルでもパークは落ちるようにできました。<br>スタートした時点でどこでも杖編集とトリック血の金塊は強制的に所持している状態にしたいです。<br>→スタート時点でどこ杖とトリック血の金塊はとることが出来ました。<br>バランス調整も考えて出てくるパークのテーブルを作りたいです。<br>7&#x2F;24<br>杖をスポーンさせたいです。とりあえずパーク3％、杖10％、スペル87％と言うふうに考えております。<br>敵の倍率もできるなら時間で傾斜をかけていきたいです。<br>7&#x2F;25<br>杖をスポーンさせるのが私の技術力では無理だったので、敵を倒したときのドロップで杖強化系のパークが出やすくしてみます。<br>敵が倒れると、パーク5％、杖強化系のパーク3％、残りの92％でスペルという感じにしたいと思います。<br>7&#x2F;26<br>perk_spawn_with_name関数に変数を入れたいんですけど反応しません。けっこう頑張ったのですが無理そうです。なので出現させたい84個のパークを全てifelseで済ませてしまいましょうか。非効率的ですが、プログラマーじゃないのでちょっと他の方法が思いつかなかったです。死ぬエンティティを生成するパークは処理が難しくなってしまうので省いてしまう予定です。<br>7&#x2F;27<br>パークのドロップはできました。次はスペルをドロップさせます。単純に量が多いのでテーブルを作るのがより大変です。<br>8&#x2F;24<br>お久しぶりです。何とか完成させることができました。<br>パークのテーブルを作るのに手こずっていました。(単純に量的に)</p>
+        <p>今まで不定期に続けてきた日記だが、バグで見た目が崩れてしまっている。原因はjavascriptかCSSか。<br>いずれにして、復旧は大変で長い戦いになる見立てでいる。(せめてわたしがWEB技術系に詳しければ…。githubやクッキーが原因では無かったし、ブラウザで調べたが成果は得られなかった。)<br>なるべく早い解決を目指して頑張りたい。(切実な願い)</p>
+<p>P.S.<br>“o”(アルファベットのO)が表示されないというバグへの対処が終わり、このブログから消え去っていたoと<strong>oを必要とするお段の言葉</strong>も元通り使えるようになった。<br>特定の文字を意図的に使わないような文章をリポグラムと言うが、さすがに母音を封じるとなると大したことのない文章でもかなり書きづらい。(助詞がかなり制限されるのがきつい)</p>
+<p>結局原因はfontでした<br>notosansって名付けたところにfontawesomeをインポートしてて、何故かfontawesomeのほうにはoが入ってなかった<br>きちんとnotosansとfontawesomeを区別して解決!!</p>
 <hr>
 
-<p><a target="_blank" rel="noopener" href="https://docs.google.com/forms/d/e/1FAIpQLScjliG5otfyfFs7gtxU_s7r8gZmFnbuMgnDTwH5NaYTzlMIgw/viewform?usp=sf_link" title="googleフォームリンク">お問い合わせ(googleフォームリンク)</a><br>間違えの指摘等はこちらにお願いします   気軽に送信できます</p>
+<p><a target="_blank" rel="noopener" href="https://docs.google.com/forms/d/e/1FAIpQLScjliG5otfyfFs7gtxU_s7r8gZmFnbuMgnDTwH5NaYTzlMIgw/viewform?usp=sf_link" title="googleフォームリンク">お問い合わせ(googleフォームリンク)</a><br>googleフォームのリンクです。感想とかご意見もどうぞ。</p>
 
       
     </div>
@@ -98,15 +96,10 @@
         
   
   <div class="categories">
-    <a href="/categories/noita/">noita</a>, <a href="/categories/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/">プログラミング</a>
+    <a href="/categories/%E9%9B%91%E8%A8%98/">雑記</a>
   </div>
 
         
-  
-  <div class="tags">
-    <a href="/tags/noita-mod%E5%88%B6%E4%BD%9C/">noita-mod制作</a>
-  </div>
-
         
   <div class="addthis addthis_toolbox addthis_default_style">
     
